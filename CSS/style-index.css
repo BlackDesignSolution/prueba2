@@ -1,0 +1,130 @@
+body{
+    background: rgb(255, 255, 255);
+}
+
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3rem;
+	color: #fdfbfb;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3rem;
+	color: #000000;
+}
+
+p{
+	font-family: 'Lora';
+}
+
+/*-------------navbar----------------------*/
+
+.header img{
+	width: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+    .empresa{
+        margin-top: 1rem;
+    }
+}
+/*-------------/navbar----------------------*/
+
+/*-------------Empresa----------------------*/
+.empresa{
+    margin-top: 6rem;
+}
+.text-empresa{
+    font-size: 1.5rem;
+}
+
+.btn{
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color:#ff0000;
+    letter-spacing: 5px;
+    border: 3px solid;
+    transition: all 0.6s;
+}
+.btn:hover{
+    background-color: rgb(185, 3, 3);
+    box-shadow: 0 0 20px #b40101;
+    border-color: #fdfdfd;
+    color: #fdfdfd;
+}
+.btn span:nth-child(n){
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 3px solid;
+    transition: all 0.6s ease;
+}
+.btn span:nth-child(1){
+    right: 10%;
+    top: -10px;
+    background-color: #ff0000;
+}
+.btn span:nth-child(2){
+    left: 10%;
+    bottom: -10px;
+    background-color: #fdfcfc;
+}
+.btn:hover span:nth-child(1){
+    right: 80%;
+    transform: rotate(90deg);
+    color: #ff0000;
+    background-color: #ff0000;
+}
+
+.btn:hover span:nth-child(2){
+    left: 80%;
+    transform: rotate(90deg);
+    color:#fdfcfc ;
+}
+
+/*-------------/Empresa----------------------*/
+
+/*-------------Servicios----------------------*/
+
+.servicios{
+	background: #181818;
+}
+.card{
+    width: 100%;
+	box-shadow: 16px 14px 20px #0000008c;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+}
+.card-body{
+	height: 11rem;
+	background-color: #101010;
+	color: white
+}
+.text-stand{
+	font-size: 1.5rem;
+	color: white;
+}
+/*-------------/servicios----------------------*/
+/*-------------Contacto----------------------*/
+.contacto, .footer{
+    background: #181818;
+    color: white;
+}
+
+
+
+
+
+
+/*-------------/Contacto----------------------*/

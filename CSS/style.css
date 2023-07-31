@@ -1,0 +1,243 @@
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3rem;
+	color: #fdfbfb;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3rem;
+	color: #000000;
+}
+
+p{
+	font-family: 'Lora';
+}
+
+
+
+/*-------------navbar----------------------*/
+.bg-light{
+	background-color: transparent !important;
+}
+.header img{
+	width: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+}
+/*-------------/navbar----------------------*/
+.text-empresa {
+	font-size: 1.5rem;
+}
+.stand{
+	background: #05043b;
+}
+.text-stand{
+	font-size: 1.5rem;
+	color: white;
+}
+
+/*----------------carousel------------------------*/
+.text-carousel{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+/*----------------/carousel------------------------*/
+
+/*----------------stand------------------------*/
+.stand{
+	background: #181818;
+}
+/*----------------/stand------------------------*/
+/*----------------card------------------------*/
+.card-body{
+	height: 11rem;
+	background-color: #101010;
+	color: white
+	
+}
+.card{
+	box-shadow: 16px 14px 20px #0000008c;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+}
+
+.card:hover{
+	background: red;
+}
+/*----------------/card------------------------*/
+
+/*----------------Empresa------------------------*/
+.empresa{
+	padding-top: 6rem;
+}
+
+.filosofia{
+	background: #707070;
+	padding-top: 6rem;
+	
+}
+
+.filosofia1{
+	padding-top: 4rem ;
+}
+
+.card-empresa{
+	height: 14rem;
+}
+.card-empresa h5{
+	font-size: 2rem;
+	padding: 0.5rem;
+}
+
+.valores {
+	
+	background: #181818;
+	padding: 4rem ;
+}
+
+.card-valores{
+	height: 20rem;
+}
+
+.card-valores h5{
+	font-size: 2rem;
+	padding: 0.5rem;
+}
+
+.img-valores{
+	height: 6rem;
+	padding: 1rem;
+}
+
+/*----------------/Empresa------------------------*/
+
+/*
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bg-light {
+	background-color: transparent !important;
+}
+/*--------------------------whatsapp-----------------------
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+.my-float{
+	margin-top:16px;
+}
+/*--------------------------/whatsapp-----------------------
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: Montserrat;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: darkorange;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #000;
+	margin-top: 15px;
+}
+
+.bounceInRight{
+	animation-delay: 1s;
+}
+.bounceInLeft{
+	animation-delay: 2s;
+}
+/*---------------------navbar-----------------------------
+.navbar img{
+	font-size: 1rem;
+}
+.navbar-nav a {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		bottom: 165px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+}
+*/

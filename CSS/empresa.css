@@ -1,0 +1,73 @@
+body{
+	background: hsl(0, 1%, 79%);
+}
+h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3rem;
+	color: #fdfbfb;
+}
+h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 3rem;
+	color: #000000;
+}
+
+p{
+	font-family: 'Lora';
+}
+/*-------------Filosofia----------------------*/
+.filosofia{
+	padding-top: 4rem;
+}
+.text-filo{
+	font-size: 1.5rem;
+}
+/*-------------/Filosofia----------------------*/
+/*-------------Tarjetas----------------------*/
+
+.bi{
+	font-size: 4rem;
+}
+.card1{
+	background: #ffffff;
+	height: 20rem;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+.card1:hover{
+	box-shadow:1px 1px 20px #fc0202;
+}
+.card-title{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 2rem;
+	padding: .5rem;
+	
+}
+.card{
+	height: 15rem;
+}
+/*-------------/Tarjetas----------------------*/
+/*-------------navbar----------------------*/
+
+.header img{
+	width: 5rem;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.h2{
+		font-size: 1rem;
+	}
+
+    .text-filo{
+		font-size: 1rem;
+	}
+}
+/*-------------/navbar----------------------*/
