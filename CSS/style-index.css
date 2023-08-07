@@ -87,11 +87,12 @@ p{
 	position: relative;
 	overflow: hidden;
 	display: flex;
+    border-radius: 1.5rem;
 }
 .card-title{
     font-size: 1.5rem;
-
 }
+
 .card-body{
 	height: 11rem;
 	background-color: #101010;
@@ -116,10 +117,16 @@ p{
 }
 
 @media only screen and (max-width: 767px) {
+    h2{
+        font-size: 2rem;
+    }
 	.navbar-nav {
 		text-align: center;
 		background: rgba(0, 0, 0, 0.5);
 	}
+    .header img{
+        width: 3rem;
+    }
 
     .empresa{
         margin-top: 1rem;
