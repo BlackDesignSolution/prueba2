@@ -21,12 +21,7 @@ p{
 	width: 5rem;
 }
 
-@media only screen and (max-width: 767px) {
-	.navbar-nav {
-		text-align: center;
-		background: rgba(0, 0, 0, 0.5);
-	}
-}
+
 /*-------------/navbar----------------------*/
 /*--------------Video-----------------------*/
 .video{
@@ -37,7 +32,6 @@ p{
     font-family: 'Lora';
 }
 /*--------------/Video-----------------------*/
-
 .img{
     box-shadow: 16px 14px 20px #0000008c;
 }
@@ -87,3 +81,24 @@ p{
     color:#fdfcfc ;
 }
 /*--------------Boton-------------------*/
+/*--------------Contacto----------------*/
+.text-stand{
+	font-size: 1.5rem;
+	color: white;
+}
+.contacto, .footer{
+    background: #181818;
+    color: white;
+}
+/*--------------Contacto----------------*/
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+    .img-fluid{
+        width: 100%;
+    }
+}
