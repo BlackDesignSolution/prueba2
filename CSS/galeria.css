@@ -82,6 +82,9 @@ p{
 }
 /*--------------Boton-------------------*/
 /*--------------Contacto----------------*/
+.img-fluid{
+    border-radius: 0.5rem;
+}
 .text-stand{
 	font-size: 1.5rem;
 	color: white;
@@ -89,6 +92,10 @@ p{
 .contacto, .footer{
     background: #181818;
     color: white;
+}
+
+.img :hover{
+    transform: 1.2;
 }
 /*--------------Contacto----------------*/
 

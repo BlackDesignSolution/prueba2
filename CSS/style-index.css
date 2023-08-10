@@ -98,18 +98,39 @@ p{
 	background-color: #101010;
 	color: white
 }
+
 .text-stand{
 	font-size: 1.5rem;
 	color: white;
 }
 /*-------------/servicios----------------------*/
+/*-------------Logos--------------------------*/
+.log{
+    width: 5rem;
+    height: auto;
+}
+.text-log{
+    font-size: 2rem;
+    display: block; /* Cambiar a "inline-block" si quieres que ocupe solo el ancho del texto */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+/*-------------/Logos--------------------------*/
 /*-------------Contacto----------------------*/
 .contacto, .footer{
     background: #181818;
     color: white;
+    padding-top: 5rem;
+}
+.footer{
+    background: #181818;
+    color: white;
+    display: block; /* Cambiar a "inline-block" si quieres que ocupe solo el ancho del texto */
+    text-align: center;
 }
 
 /*-------------/Contacto----------------------*/
+
 /*-------------navbar----------------------*/
 
 .header img{

@@ -48,44 +48,44 @@
           </nav>
     </header>
     <!-----------Inicio------------------>
-    <section class="carousel">
-      <div id="inicio" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target=".carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target=".carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target=".carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img loading="lazy" src="./img/carousel/render1.webp" class="d-block w-100" alt="Stand_de_Dulces">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>Stands para Ferias</h1>
-          <p class="carousel-text">Espacios impresionantes para exhibir marcas y productos en ferias. Impacto visual garantizado.</p>
+    <section id="inicio">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img loading="lazy" src="./img/carousel/render2.webp" class="d-block w-100" alt="Stand_de_NIKE">
-        <div class="carousel-caption d-none d-md-block">
-            <h2>Diseño de Stand</h2>
-            <p class="text-carousel">Diseñamos stands personalizados a la medida de tus necesidades para impresionar en eventos y ferias. Creatividad y profesionalismo asegurados.</p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/carousel/render1.webp" class="d-block w-100" alt="Stand_de_Dulces">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Stands para Ferias</h1>
+              <p>Espacios impresionantes para exhibir marcas y productos en ferias. Impacto visual garantizado.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel/render2.webp" class="d-block w-100" alt="Stand_de_NIKE">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Diseño de Stand</h2>
+              <p class="text-carousel">Diseñamos stands personalizados a la medida de tus necesidades para impresionar en eventos y ferias. Creatividad y profesionalismo asegurados.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel/render3.webp" class="d-block w-100" alt="Stand_Tecnologia">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Stands de Exhibición</h2>
+              <p class="text-carousel">Stands profesionales y atractivos para mostrar tus productos y servicios en ferias y exposiciones. Impacta a tu audiencia.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img loading="lazy" src="./img/carousel/render3.webp" class="d-block w-100" alt="Stand_Tecnologia">
-        <div class="carousel-caption d-none d-md-block">
-            <h2>Stands de Exhibición</h2>
-            <p class="text-carousel">Stands profesionales y atractivos para mostrar tus productos y servicios en ferias y exposiciones. Impacta a tu audiencia.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target=".carousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target=".carousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
     <!-----------/Inicio----------------->
@@ -159,32 +159,35 @@
         </div>
     </section>
     <!-----------/Servicios----------------->
+    <!-----------logos----------------->
     <section class="logos py-5">
         <div class="container">
+          <span class="text-log">Ellos confían en nosotros</span>
             <div class="row text-center">
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                  <img loading="lazy" src="./img/logos/nestle.png" class="img-fluid" alt="Nestle">
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-3">
+                  <img loading="lazy" src="./img/logos/nestle.png" class="img-fluid log" alt="Nestle">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                  <img loading="lazy" src="./img/logos/Nike.png" class="img-fluid" alt="L'oreal">
+                <div class="col-lg-2 col-md-4 col-sm-6 ">
+                  <img loading="lazy" src="./img/logos/Nike.png" class="img-fluid log" alt="L'oreal">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                  <img loading="lazy" src="./img/logos/bonafont.png" class="img-fluid" alt="logo">
+                <div class="col-lg-2 col-md-4 col-sm-6 ">
+                  <img loading="lazy" src="./img/logos/bonafont.png" class="img-fluid log" alt="logo">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                  <img loading="lazy" src="./img/logos/logo-F1.png" class="img-fluid" alt="logo">
+                <div class="col-lg-2 col-md-4 col-sm-6 ">
+                  <img loading="lazy" src="./img/logos/logo-F1.png" class="img-fluid log" alt="logo">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                  <img  loading="lazy" src="./img/logos/logo-NFL.png" class="img-fluid" alt="logo">
+                <div class="col-lg-2 col-md-4 col-sm-6 ">
+                  <img  loading="lazy" src="./img/logos/logo-NFL.png" class="img-fluid log" alt="logo">
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                  <img loading="lazy" src="./img/logos/loreal.webp" class="img-fluid" alt="logo">
+                <div class="col-lg-2 col-md-4 col-sm-6 ">
+                  <img loading="lazy" src="./img/logos/loreal.webp" class="img-fluid log" alt="logo">
                 </div>
             </div>
         </div>
     </section>
+    <!-----------/logos----------------->
     <section class="contacto py-5" id="contacto">
-      <div class="container">
+      <div class="container py-5">
         <div class="row">
           <div class="col-lg-5">
             <p class="text-stand">
@@ -223,7 +226,7 @@
           </div>
           </div>
         </div>
-        <div class="row py-5">
+        <div class="row contacto">
           <div class="col-lg-4 col-md-4 col-sm-4">
             <div class="contact-item d-flex mb-3">
               <div class="icon fs-4 text-info">
@@ -260,19 +263,16 @@
         </div>
       </div>
     </section>
-    <section class="footer">
-      <div class="container">
-        <footer class="footer border-top py-4">
-          <div class="container-lg">
-            <div class="row">
-              <div class="col-lg-12">
-                <p class="m-0 text-center text-mute">&copy; 2023 APM Stands</p>
-              </div>
-            </div>
+
+    <footer class="footer border-top">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0  text-mute">&copy; 2023 APM Stands</p>
           </div>
-        </footer>
+        </div>
       </div>
-    </section>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
