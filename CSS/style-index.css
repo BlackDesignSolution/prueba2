@@ -19,7 +19,30 @@ h2{
 p{
 	font-family: 'Lora';
 }
-
+/*-------------Whatsapp----------------------*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+    background-color:#fff;
+}
+.my-float{
+	margin-top:16px;
+}
+/*-------------/Whatsapp----------------------*/
 /*-------------Inicio----------------------*/
 .c-item {
     height: 700px;
@@ -134,7 +157,7 @@ p{
 }
 /*-------------/Logos--------------------------*/
 /*-------------Contacto----------------------*/
-.contacto, .footer{
+.contacto{
     background: #181818;
     color: white;
     padding-top: 5rem;
@@ -142,8 +165,7 @@ p{
 .footer{
     background: #181818;
     color: white;
-    display: block; /* Cambiar a "inline-block" si quieres que ocupe solo el ancho del texto */
-    text-align: center;
+
 }
 
 /*-------------/Contacto----------------------*/
@@ -151,7 +173,7 @@ p{
 /*-------------navbar----------------------*/
 
 .header img{
-	width: 5rem;
+	width: 7rem;
 }
 
 @media only screen and (max-width: 767px) {

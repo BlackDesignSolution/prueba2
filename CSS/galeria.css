@@ -12,13 +12,39 @@ p{
     font-family: 'Lora';
     color: white;
 }
+
+/*-------------Whatsapp----------------------*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:40px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+.my-float{
+	margin-top:16px;
+}
+/*-------------/Whatsapp----------------------*/
+
 /*-------------navbar----------------------*/
 
 .bg-light{
 	background-color: transparent !important;
 }
 .header img{
-	width: 5rem;
+	width: 7rem;
 }
 
 
@@ -89,6 +115,17 @@ p{
 	font-size: 1.5rem;
 	color: white;
 }
+
+.contacto{
+    background: #181818;
+    color: white;
+    padding-top: 5rem;
+}
+.footer{
+    background: #181818;
+    color: white;
+}
+/*-------------/Contacto----------------------*/
 .contacto, .footer{
     background: #181818;
     color: white;
@@ -98,6 +135,7 @@ p{
     transform: 1.2;
 }
 /*--------------Contacto----------------*/
+
 
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
