@@ -14,12 +14,29 @@ h2{
 	font-weight: bold;
 	text-align: center;
 	font-size: 3rem;
-	color: #000000;
 }
 
 p{
 	font-family: 'Lora';
 }
+
+/*-------------Inicio----------------------*/
+.c-item {
+    height: 700px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+  }
+
+  .text-ini{
+    padding-top: 4rem;
+    color: #ffffff;
+  }
+/*-------------/inicio----------------------*/
+
 /*-------------Empresa----------------------*/
 .empresa{
     margin-top: 6rem;
