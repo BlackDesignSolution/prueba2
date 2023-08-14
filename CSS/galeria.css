@@ -57,6 +57,14 @@ p{
     font-size: 1.5rem;
     font-family: 'Lora';
 }
+
+/*---------------imagen de inicio------------*/
+.img-ini{
+    border-radius: 1rem;
+    width: 95%;
+    height: auto;
+}
+
 /*--------------/Video-----------------------*/
 .img{
     box-shadow: 16px 14px 20px #0000008c;
